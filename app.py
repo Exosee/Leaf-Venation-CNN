@@ -53,11 +53,21 @@ st.markdown("""
         margin: 0.3rem 0;
     }
     .info-card {
-        background: #F1F8E9;
+        background: #1a3a1a;
         border-left: 4px solid #4CAF50;
         padding: 1rem 1.2rem;
         border-radius: 0 8px 8px 0;
         margin: 0.5rem 0;
+        color: #E8F5E9 !important;
+        font-size: 1.05rem;
+        line-height: 1.7;
+    }
+    .info-card strong {
+        color: #A5D6A7 !important;
+        font-size: 1.15rem;
+    }
+    .info-card em {
+        color: #81C784 !important;
     }
     .stProgress .st-bo {
         background-color: #4CAF50;
