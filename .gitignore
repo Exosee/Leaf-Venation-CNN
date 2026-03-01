@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Old SVM model files
+leaf_venation_model.pkl
+feature_scaler.pkl
+
+# Trained CNN model (regenerate with: python train_model.py)
+leaf_cnn_model.keras
+class_names.json
+
+# Generated venation maps (regenerate with: python venation_extractor.py)
+venation_maps/
+
+# Temp files
+temp_veins/
+temp_classify_vein.png
+
+# Streamlit
+.streamlit/
